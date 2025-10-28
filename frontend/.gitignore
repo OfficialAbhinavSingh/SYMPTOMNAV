@@ -1,0 +1,187 @@
+# ============================================================
+# 📁 General
+# ============================================================
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Build output
+dist/
+build/
+dist-ssr/
+*.local
+
+# Environment files (secrets)
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# OS / Editor specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ============================================================
+# 🧠 Python (Backend)
+# ============================================================
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually contains a build log and compiled app
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ============================================================
+# ⚛️ Frontend (Vite / React)
+# ============================================================
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.tsbuildinfo
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+
+# Cache
+.cache/
+.eslintcache
+.parcel-cache/
+vite.cache/
+
+# Optional npm/yarn/pnpm files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================================================
+# 🧩 Misc
+# ============================================================
+# VSCode workspace settings
+*.code-workspace
+
+# Local database or JSON data files (if used)
+*.sqlite3
+*.db
+users.json
+
+# Backups
+*.bak
+*.tmp
+*.temp
+
+# ============================================================
+# ✅ End of .gitignore
+# ============================================================
