@@ -1,0 +1,11 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Runtime data files
+# These should not be in Git.
+users.json
+help_messages.json
