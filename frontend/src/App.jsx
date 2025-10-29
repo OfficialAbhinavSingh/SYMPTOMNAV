@@ -286,7 +286,7 @@ function SymptomAnalyzer() {
     setResult(null);
     setError(null);
 
-    const API_URL = 'http://localhost:5000';
+    const API_URL = import.meta.env.VITE_BACKEND_URL || 'https://symptomnav-backend.onrender.com';
 
     try {
       const response = await fetch(`${API_URL}/analyze`, {
@@ -800,7 +800,7 @@ function App() {
     }
 
     try {
-      const response = await fetch(`http://localhost:5000/${endpoint}`, {
+      const response = await fetch(`https://symptomnav-backend.onrender.com/${endpoint}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(bodyData),
